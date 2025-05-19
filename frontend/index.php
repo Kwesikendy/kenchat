@@ -71,5 +71,13 @@ session_start();
             <a href="register.php" class="text-blue-500 hover:underline">Signup</a>
         </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script>
+  const supabase = supabase.createClient(
+    'https://ibcyncamhxkztzrlyesz.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImliY3luY2FtaHhrenR6cmx5ZXN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NjE1OTAsImV4cCI6MjA2MzIzNzU5MH0.NrIBKzY1U__Ro0rOFcPqa2ih_FqR3xvSfSwSRnQFk-A'
+  );
+</script>
+
 </body>
 </html>
